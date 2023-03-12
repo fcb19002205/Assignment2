@@ -46,7 +46,7 @@ public class Demo {
             String content = new String(buffer);
 
             if (content.equals(String.valueOf(konverzijskiFaktor))) {
-                System.out.println("Iz Datoteke: konverzijskiFaktor = " + konverzijskiFaktor);
+                System.out.println("Iz Datoteke: konverzijskiFaktor = " + content);
             }
 
         } catch (IOException e) {
